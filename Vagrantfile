@@ -11,7 +11,7 @@ Vagrant::Config.run do |config|
     }
     chef.run_list = [
       "minitest-handler",
-      "recipe[memcached]",
+      "recipe[hectcastro-memcached]",
     ]
   end
 end
